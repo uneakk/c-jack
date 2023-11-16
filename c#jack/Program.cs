@@ -10,7 +10,6 @@ class Program
         while (true)
         {
             PlayGame();
-
             Console.Write("Do you want to play again? (y/n): ");
             if (Console.ReadLine().ToLower() != "y")
             {
@@ -38,19 +37,22 @@ class Program
         DealCard(dealerHand, deck);
 
         // Display initial hands
-        Console.WriteLine($"Your hand: {DisplayHand(playerHand)}");
-        Console.WriteLine($"Dealer's hand: {DisplayPartialHand(dealerHand)}");
+        Console.WriteLine($"\nYour hand: \n{DisplayHand(playerHand)}\n");
+        Console.WriteLine($"Dealer's hand: \n{DisplayPartialHand(dealerHand)}\n");
 
         // Player's turn
         while (CalculateHandValue(playerHand) < 21)
         {
             Console.Write("Do you want to hit or stand? (h/s): ");
             string choice = Console.ReadLine().ToLower();
+            Console.Clear();
+
+
 
             if (choice == "h")
             {
                 DealCard(playerHand, deck);
-                Console.WriteLine($"Your hand: {DisplayHand(playerHand)}");
+                Console.WriteLine($"\nYour hand: \n{DisplayHand(playerHand)}\n");
             }
             else if (choice == "s")
             {
@@ -67,10 +69,11 @@ class Program
         {
             DealCard(dealerHand, deck);
         }
+        Console.Clear();
 
         // Display final hands
-        Console.WriteLine($"Your hand: {DisplayHand(playerHand)}");
-        Console.WriteLine($"Dealer's hand: {DisplayHand(dealerHand)}");
+        Console.WriteLine($"\nYour hand: \n{DisplayHand(playerHand)}\n");
+        Console.WriteLine($"Dealer's hand: \n{DisplayHand(dealerHand)}\n");
 
         // Determine the winner
         int playerScore = CalculateHandValue(playerHand);

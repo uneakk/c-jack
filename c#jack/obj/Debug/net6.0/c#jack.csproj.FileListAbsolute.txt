@@ -1,0 +1,15 @@
+C:\Users\ws\source\repos\c-jack\c#jack\bin\Debug\net6.0\c#jack.exe
+C:\Users\ws\source\repos\c-jack\c#jack\bin\Debug\net6.0\c#jack.deps.json
+C:\Users\ws\source\repos\c-jack\c#jack\bin\Debug\net6.0\c#jack.runtimeconfig.json
+C:\Users\ws\source\repos\c-jack\c#jack\bin\Debug\net6.0\c#jack.dll
+C:\Users\ws\source\repos\c-jack\c#jack\bin\Debug\net6.0\c#jack.pdb
+C:\Users\ws\source\repos\c-jack\c#jack\obj\Debug\net6.0\c#jack.csproj.AssemblyReference.cache
+C:\Users\ws\source\repos\c-jack\c#jack\obj\Debug\net6.0\c#jack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ws\source\repos\c-jack\c#jack\obj\Debug\net6.0\c#jack.AssemblyInfoInputs.cache
+C:\Users\ws\source\repos\c-jack\c#jack\obj\Debug\net6.0\c#jack.AssemblyInfo.cs
+C:\Users\ws\source\repos\c-jack\c#jack\obj\Debug\net6.0\c#jack.csproj.CoreCompileInputs.cache
+C:\Users\ws\source\repos\c-jack\c#jack\obj\Debug\net6.0\c#jack.dll
+C:\Users\ws\source\repos\c-jack\c#jack\obj\Debug\net6.0\refint\c#jack.dll
+C:\Users\ws\source\repos\c-jack\c#jack\obj\Debug\net6.0\c#jack.pdb
+C:\Users\ws\source\repos\c-jack\c#jack\obj\Debug\net6.0\c#jack.genruntimeconfig.cache
+C:\Users\ws\source\repos\c-jack\c#jack\obj\Debug\net6.0\ref\c#jack.dll
