@@ -189,14 +189,29 @@ class Program
     }
 }
 
+enum Suit
+{
+ Diamonds,
+ Spades,
+ Clubs, 
+ Hearts
+   
+}
+
 class Card
 {
-    public string Rank { get; }
-    public string Suit { get; }
+   private Suit suit;
+   private int value;
 
-    public Card(string rank, string suit)
-    {
-        Rank = rank;
-        Suit = suit;
-    }
+   public Card(Suit suit, int value)
+   {
+    this.suit = suit;
+    this.value = value;
+   } 
+    
+public string printcard()
+{
+    return $"{value} of {suit}";
+}
+
 }
