@@ -13,6 +13,7 @@ class Program
             Console.Write("Do you want to play again? (y/n): ");
             if (Console.ReadLine().ToLower() != "y")
             {
+                Console.Clear();
                 break;
             }
         }
@@ -37,7 +38,7 @@ class Program
         DealCard(dealerHand, deck);
 
         // Display initial hands
-        Console.WriteLine($"\nYour hand: \n{DisplayHand(playerHand)}\n");
+        Console.WriteLine($"\n  Your hand: \n{DisplayHand(playerHand)}\n");
         Console.WriteLine($"Dealer's hand: \n{DisplayPartialHand(dealerHand)}\n");
 
         // Player's turn
@@ -188,14 +189,29 @@ class Program
     }
 }
 
+enum Suit
+{
+ Diamonds,
+ Spades,
+ Clubs, 
+ Hearts
+   
+}
+
 class Card
 {
-    public string Rank { get; }
-    public string Suit { get; }
+   private Suit suit;
+   private int value;
 
-    public Card(string rank, string suit)
-    {
-        Rank = rank;
-        Suit = suit;
-    }
+   public Card(Suit suit, int value)
+   {
+    this.suit = suit;
+    this.value = value;
+   } 
+    
+public string printcard()
+{
+    return $"{value} of {suit}";
+}
+
 }
