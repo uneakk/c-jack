@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\roman\\source\\repos\\c#jack\\c#jack\\c#jack.csproj": {}
+    "C:\\Users\\ws\\source\\repos\\c-jack\\c#jack\\c#jack.csproj": {}
   },
   "projects": {
-    "C:\\Users\\roman\\source\\repos\\c#jack\\c#jack\\c#jack.csproj": {
+    "C:\\Users\\ws\\source\\repos\\c-jack\\c#jack\\c#jack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\roman\\source\\repos\\c#jack\\c#jack\\c#jack.csproj",
+        "projectUniqueName": "C:\\Users\\ws\\source\\repos\\c-jack\\c#jack\\c#jack.csproj",
         "projectName": "c#jack",
-        "projectPath": "C:\\Users\\roman\\source\\repos\\c#jack\\c#jack\\c#jack.csproj",
-        "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\roman\\source\\repos\\c#jack\\c#jack\\obj\\",
+        "projectPath": "C:\\Users\\ws\\source\\repos\\c-jack\\c#jack\\c#jack.csproj",
+        "packagesPath": "C:\\Users\\ws\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ws\\source\\repos\\c-jack\\c#jack\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ws\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
