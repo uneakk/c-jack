@@ -13,6 +13,7 @@ class Program
             Console.Write("Do you want to play again? (y/n): ");
             if (Console.ReadLine().ToLower() != "y")
             {
+                Console.Clear();
                 break;
             }
         }
@@ -37,7 +38,7 @@ class Program
         DealCard(dealerHand, deck);
 
         // Display initial hands
-        Console.WriteLine($"\nYour hand: \n{DisplayHand(playerHand)}\n");
+        Console.WriteLine($"\n  Your hand: \n{DisplayHand(playerHand)}\n");
         Console.WriteLine($"Dealer's hand: \n{DisplayPartialHand(dealerHand)}\n");
 
         // Player's turn
